@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tanaya Ahirrao | BBA Student at IIM Bangalore. Explore my resume website to learn more about my education, interests, and goals.">
+    <title>Tanaya Ahirrao - Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/62215e2840.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img src="./images/Tanayaa_Profile_Photo-removebg-preview.png" class="profile-bg" alt="Profile image" style="float: right; width: 50%; height: 100%; padding-top: 2%;">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/Logo.png" class="logo" style="height: 200px">
+                <ul class="nav-menu" id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Certifications">Licenses & Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Volunteering">Volunteering</a></li>
+                    <li><a href="#Awards">Honors & Awards</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student & Intern</p>
+                <h1>Hi, I'm <span>Tanaya</span> Ahirrao from IIM Bangalore</h1>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+    <!-----------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/user image.jpg" width="50%" height="100%">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Tanaya Ahirrao, a driven BBA student at IIM Bangalore, specializing in Digital Business and Entrepreneurship.
+                        Passionate about innovation, strategic thinking, and communication, I continuously seek opportunities to learn,
+                        grow, and create meaningful impact through my work. I’ve completed a 1 year SEO content writing internship, earned 
+                        two gold medals in the International English Olympiad, and currently focus on developing creative skills, SEO 
+                        strategies, and leadership experience. My goal is to combine business acumen with digital tools to solve 
+                        real-world problems.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Key Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Work Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Content Writing</span><br>SEO blogs, personal development articles, MBA & CAT prep content</li>
+                            <li><span>SEO Optimization</span><br>On-page SEO, keyword strategy, Google search intent</li>
+                            <li><span>Communication Skills</span><br>Public speaking, English fluency, interpersonal skills</li>
+                            <li><span>Digital Marketing</span><br>Social media content, basic analytics, audience targeting</li>
+                            <li><span>Leadership</span><br>Team coordination, initiative-taking, mentoring juniors</li>
+                            <li><span>Creative Thinking</span><br>Idea generation, quotes writing, blogging</li>
+                            <li><span>Time Management</span><br>Juggling college, internships, personal projects</li>
+                            <li><span>Research Skills</span><br>Market trends, blog topics, personal development insights</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li style="color: #ff3131;"><span>Feb 2024-Feb 2025</span><br><a href="images/Cracku internship.jpg">Content Writing Intern at Cracku</a></li>
+                            <p style="font-size: 1rem;">At Cracku, I consistently delivered high-quality educational blog posts, primarily focused on MBA exams like CAT, XAT, and SNAP. Writing daily for 1 year enhanced my content writing, SEO understanding, and research skills. This experience also sharpened my ability to communicate complex concepts in a student-friendly tone.</p>
+                            <ul>
+                                <li>&bull;Wrote over 500+ blogs on exam preparation and strategy.</li>
+                                <li>&bull;Ranked blog posts on Google using SEO techniques.</li>
+                                <li>&bull;Developed expertise in writing compelling, informative educational content.</li>
+                              </ul>
+                              
+                            <li style="color: #ff3131;"><span>May 2024-July 2024</span><br><a href="images/insideIIM internship.jpg">Event Marketing Intern at InsideIIM</a></li>
+                            <p style="font-size: 1rem;">During my time at InsideIIM, I actively participated in promoting InsideIIM's flagship event Konversations Kafe in collaboration with Sun Pharma, Colgate-Palmolive, andTata Administrative Services (TAS), helping drive engagement through targeted marketing efforts. I gained hands-on experience in event strategy, community outreach, and content-based brand communication.</p>
+                            <ul>
+                                <li>&bull;Engaged with a diverse student community of 1000+ to boost participation.</li>
+                                <li>&bull;Learned digital marketing strategies tailored for Gen Z and student audiences.</li>
+                                <li>&bull;Leveraged Persuasive Communication skills to persuade audience to attend our event and achieve the target participation.</li>
+                              </ul>
+                              
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024-Present</span><br>BBA (Digital Business and Entrepreneurship), Indian Institute of Management (IIM), Bangalore</li>
+                            <li><span>2022-2024</span><br>BBA (International Business), Narsee Monjee Institute of Management Studies (NMIMS), Mumbai in collaboration with BBA (Hons.), Kingston University, London</li>
+                            <li><span>2021-2022</span><br>BBA, BYK College of Commerce</li>
+                            <li><span>2019-2021</span><br>HSC Commerce, BYK College of Commerce</li>
+                        </ul>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------licenses & Certifications---------->
+    <div id="Certifications">
+        <div class="container">
+            <h1 class="sub-title">Licenses & Certifications</h1>
+            <div class="certifications-list">
+                <div>
+                    <i class="fa-solid fa-file-excel"></i>
+                    <h2>Excel Essential Training (Microsoft 365)</h2>
+                    <p>Course completed on Jun 08,2023 on LinkedIn Learning</p>
+                    <a href="images/Excel Essential Training.jpg">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <h2>Building Resilience</h2>
+                    <p>Course completed on Jun 04,2023 on LinkedIn Learning</p>
+                    <a href="images/Resilience.jpg">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-person-chalkboard"></i>
+                    <h2>Designing a Presentation</h2>
+                    <p>Course completed on May 29,2023 on LinkedIn Learning</p>
+                    <a href="images/Presentation.jpg">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-table"></i>
+                    <h2>Excel: PivotTables for Beginners</h2>
+                    <p>Course completed on May 24,2023 on LinkedIn Learning</p>
+                    <a href="images/Pivot Tables.jpg">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                    <h2>Improving your Mental Health at Work</h2>
+                    <p>Course completed on Mar 27,2023 on LinkedIn Learning</p>
+                    <a href="images/Mental Health.jpg">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hourglass-start"></i>
+                    <h2>What to Do When There's Too Much to Do (getAbstract Summary)</h2>
+                    <p>Course completed on Dec 19,2022 on LinkedIn Learning</p>
+                    <a href="images/Time Management.jpg">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--------Projects-------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <p><a href="images/Investigating the Impact of Social Media Influencers on Consumer Behaviour PDF.pdf" target="_blank">View Capstone Project (PDF)</a></p>  
+            </div>
+            <div class="project">
+                <p><a href="./images/PJ12X_ASMT1_Tanaya_24120898.pdf" target="_blank">View Choco Lava Cake Venture Report (PDF)</a></p>  
+            </div>
+        </div>
+    </div>
+
+</div>
+<!----------Volunteering----------->
+<div id="Volunteering">
+    <div class="container">
+        <h1 class="sub-title" style="font-size: 40px;">Volunteering</h1>
+            <div class="volunteering-item">
+                <h2><a href="images/DVCP.jpg">Deputy Vice Chairperson - Flagship Fest Zion'23</a></h2>
+                <p>NMIMS-CIS</p>
+                <p>Led and coordinated core activities of the college flagship fest, driving participation and collaboration across departments</p>
+            </div>
+            <div class="volunteering-item">
+                <h2 style="color: #ff3131;">Learning Pod Leader</h2>
+                <p>IIM Bangalore</p>
+                <p>Facilitated peer learning and collaboration as the designated pod leader for our academic learning group</p>
+            </div>
+    </div>
+</div>
+<!-----------Honors & Awards----------->
+
+<div id="Awards">
+    <div class="container">
+        <h1 class="sub-title">Honors & Awards</h1>
+        <div class="award-list">
+            <div class="award-item">
+                <i class="fa-solid fa-medal"></i>
+                <h2><a href="images/ZEST Football.jpg">Winner – Zest: League of Your Own</a></h2>
+                <p>CIS Premier League</p>
+                <p>Won the intra-college football fest organized on 15 February 2023, demonstrating leadership and teamwork.</p>
+              </div>
+        </div>
+    </div>
+</div>
+
+<!-----------Contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>tanayaa24@iimb.ac.in</p>
+                <p><i class="fa-solid fa-phone"></i>91 9999999xxx</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/tanaya-ahirrao "><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://x.com"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/@TheRecipeBookbyArchana"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="images/Tanaya 2025 CV Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Tanaya. Made with <i class="fa-solid fa-heart"></i> on VS Code</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>    
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    
+    function openmenu() {
+    sidemenu.style.right = "0"
+}
+
+function closemenu(){
+    sidemenu.style.right = "-500px"
+}
+</script>
+
+</body>
+</html>
